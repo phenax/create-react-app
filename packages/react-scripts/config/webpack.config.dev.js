@@ -208,6 +208,7 @@ module.exports = {
                       require.resolve('babel-plugin-styled-components'),
                       { displayName: true },
                     ],
+                    require.resolve('react-hot-loader/babel'),
                   ],
                   // This is a feature of `babel-loader` for webpack (not Babel itself).
                   // It enables caching results in ./node_modules/.cache/babel-loader/
